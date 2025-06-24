@@ -2,7 +2,8 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+    <footer>
+      <span>Noted — Jot it down. Make it stick.</span>
       <span>Built with Next.js & TypeScript</span>
       <a href="https://github.com/13ack2basixs" target="_blank">
         <Image src="/github.svg" alt="Github logo" width={25} height={25} />
