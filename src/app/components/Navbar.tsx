@@ -1,10 +1,13 @@
+import Link from 'next/link';
+
 function Navbar() {
   return (
     <div className="fixed top-0 right-0 p-8 space-x-8">
-      <span>Notes</span>
-      <span>Reviews</span>
-      <span>Thoughts</span>
-      <span>This vs That</span>
+      <Link href={'/notes'}>Noted</Link>
+      <Link href={'/my-take'}>My Take</Link>
+      <Link href={'/off-script'}>Off Script</Link>
+      <Link href={'/this-vs-that'}>This vs That</Link>
+      <Link href={'/whats-that'}>What&apos;s That?</Link>
     </div>
   );
 }
