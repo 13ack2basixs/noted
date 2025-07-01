@@ -1,4 +1,4 @@
-import NotePreviewCard from "@/app/components/NotePreviewCard";
+import NotePreviewCard from "@/app/components/PreviewCard";
 
 type CategoryProps = {
   params: {category: string}
